@@ -9,17 +9,29 @@ Before submitting your first milestone, _you must get your project idea and scop
 Start off by forking this repository. In your README, write a design doc to outline your project goals and implementation plan. It must include the following sections:
 
 #### Introduction
-- What motivates your project?
+- I have always been interested in the lore, theocracy, language, and most importantly distinctive artic style of the civilization that thrived on the banks of the Nile Millenia ago: Ancient Egypt. I had a few ideas of how I might apply my interest in this theme in the realm of proceduralism. 
 
 #### Goal
-- What do you intend to achieve with this project?
+- Design a greeble generator both 1) designed to work well on a few specific types of themed structure geometry. and 2) consisting themselves at least partially of recognizable Egyptian themes. 
 
 #### Inspiration/reference:
-- You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
-- Include in your design doc links to and images of your reference material.
+- In reference to goal #1, these will probably have minimal or no procedural elements. Perhaps a few different base dimensions or heights, or if short on time, the buildings will be completely hand defined. Their shapes are usually relatively simple to model. See a few examples of common structures in this image. In the scope of this project I would probably start with the obelisk or pyramid shapes, possible exploring the larger temple styles if time permits.
+
+![](3.jpg)
+
+- The main goal is #2, that is, generating greebles to fit properly and look pleasant on the surfaces of these structures. I found a few inspiration images for this technique online. The first demonstrates height based greebles divided into a triangle mesh. The second demonstrates fomr possibility for building lighting on a themed structure.
+
+![](1.jpg)
+![](2.png)
 
 #### Specification:
-- Outline the main features of your project.
+- For greebles
+  - be able to select a surface partition type, square or triangle? 
+  - be able to select a scale for the "noise"
+  - be able to select some kind of mix ratio between generic geometric shapes (i.e. "star wars" greebles) and themed shapes, such as extruded hieroglyphs
+- For structures
+  - be able to choose from one or more pre-defined stereotypical building styles
+  - (time permitting) be able to apply some kind of noise to generate variants of the chosen building shape
 
 #### Techniques:
 - What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
